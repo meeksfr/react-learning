@@ -9,7 +9,7 @@ function chillHop() {
             audio: "https://prod-1.storage.jamendo.com/?trackid=2188601&format=mp31&from=uWIsOHvy8OU0ja%2FX3ywbhQ%3D%3D%7CCx7%2Fk7a9Hhw8JzC74nNXdQ%3D%3D",
             color: ["#3ef7f9","#c078d1"],
             id: uuidv4,
-            active: false,
+            active: true,
         },
         {
             name: "idkwts",
