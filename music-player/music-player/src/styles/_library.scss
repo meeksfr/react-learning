@@ -1,4 +1,10 @@
 .library {
+
+    transform: translatex(-100%);
+    transition: all 0.5s ease;
+    opacity: 0;
+
+    background: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,9 +25,18 @@
         width: 30%;
     }
     &:hover{
-        background: rgb(156, 156, 199);
+        background: rgb(152, 152, 152);
     }
     cursor: pointer;
+}
+
+.selected {
+    background: rgb(192, 206, 255);
+}
+
+.active {
+    transform: translateX(0%);
+    opacity: 1;
 }
 
 .song-description {
